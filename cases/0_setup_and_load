@@ -1,5 +1,22 @@
-## Case–Circuit Mapping
+
+
+Case–Circuit Mapping
 
 - Case 1 (MPS Simulation): `P1_little_peak.qasm`
 - Case 2 (Marginal Attack): `P4_gentle_mound.qasm`
 - Case 3 (Pauli-Path Attack): `P7_rolling_ridge.qasm`
+
+
+
+import numpy as np
+import requests
+from qiskit import QuantumCircuit
+
+import bluequbit
+bq = bluequbit.init()
+
+# Get Circuits (local file from your repo)
+qc = QuantumCircuit.from_qasm_file("circuits/P1_little_peak.qasm")
+
+print("Qubits:", qc.num_qubits)
+print("Gate counts:", qc.count_ops())
