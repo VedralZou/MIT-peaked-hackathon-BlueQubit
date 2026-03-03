@@ -33,9 +33,7 @@ Instead of approximating the full state, it asks:
 
 If the output distribution concentrates sharply around a dominant bitstring, then each qubit exhibits a strong local bias:
 
-\[
-\langle Z_i \rangle \neq 0
-\]
+`⟨Z_i⟩ ≠ 0`
 
 This means that global structure leaks into single-qubit marginals.
 
