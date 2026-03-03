@@ -6,5 +6,5 @@
 - bond dimension: 32
 
 ## Results
-- Inferred peak bitstring: (fill)
-- Runtime: (fill)
+- Inferred peak bitstring: 1001
+
