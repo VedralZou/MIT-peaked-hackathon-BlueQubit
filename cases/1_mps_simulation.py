@@ -34,7 +34,7 @@ def load_qasm(name: str) -> QuantumCircuit:
 if __name__ == "__main__":
     # For MPS case, we use a larger circuit where full statevector is impractical.
     # (Following your plan: P4)
-    qc = load_qasm("P4_gentle_mound.qasm")
+    qc = load_qasm("P1_little_peak.qasm")
 
     print("Qubits:", qc.num_qubits)
     print("Gate counts:", qc.count_ops())
