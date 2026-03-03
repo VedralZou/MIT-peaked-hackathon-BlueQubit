@@ -1,1 +1,10 @@
  Outputs and summaries for each case.
+
+ 
+Case–Circuit Mapping
+
+- Case 1 (MPS Simulation): `P1_little_peak.qasm`
+- Case 2 (Marginal Attack): `P4_gentle_mound.qasm`
+- Case 3 (Pauli-Path Attack): `P7_rolling_ridge.qasm`
+
+
