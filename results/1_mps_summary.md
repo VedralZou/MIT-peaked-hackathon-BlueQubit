@@ -1,10 +1,8 @@
 # Case 1 — MPS Simulation (P1_little_peak.qasm)
 
-- Circuit: P1_little_peak.qasm
-- Device: mps.cpu (BlueQubit)
-- shots: 500
-- bond dimension: 32
+- Method: BlueQubit MPS simulator (`mps.cpu`)
+- Goal: infer the peak bitstring from a peaked circuit
+- Circuit: P1_little_peak.qasm (4 qubits)
 
-## Results
-- Inferred peak bitstring: 1001
-
+## Result
+- Peak bitstring inferred: **1001**
