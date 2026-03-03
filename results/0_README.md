@@ -7,4 +7,8 @@ Case–Circuit Mapping
 - Case 2 (Marginal Attack): `P4_gentle_mound.qasm`
 - Case 3 (Pauli-Path Attack): `P7_rolling_ridge.qasm`
 
+## Current Results
+
+- Case 1 (MPS, P1_little_peak.qasm): peak bitstring = **1001**
+
 
