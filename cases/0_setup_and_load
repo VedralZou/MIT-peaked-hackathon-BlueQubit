@@ -1,5 +1,12 @@
 #example of import qasm file
 
+import time
+import warnings
+import os
+
+os.environ["BLUEQUBIT_DEQART_INTERNAL_DISABLE_STRICT_VALIDATIONS"] = "1"
+warnings.filterwarnings("ignore", category=UserWarning)
+
 import numpy as np
 import requests
 from qiskit import QuantumCircuit
